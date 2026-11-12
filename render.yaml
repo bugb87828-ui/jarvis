@@ -1,7 +1,7 @@
 services:
   - type: web
     name: jarvis
-    repo: https://github.com/Loki-Xer/jarvis.git
+    repo: https://github.com/bugb87828-ui/jarvis.git
     branch: main
     env: docker
     dockerfilePath: Dockerfile
@@ -9,15 +9,38 @@ services:
     autoDeploy: true
     envVars:
       - key: RENDER_APP_NAME
-        sync: false
-        required: true
+        value: "Jarvis"
       - key: RENDER_API
-        sync: false
-        required: true
+        value: "rnd_W661r7vkeg5aQrgvZRSAOiI1ziyt"
       - key: SESSION_ID
-        sync: false
-        required: true
+        value: "Jarvis_8wuy_u144_6174_4uv8_3vy3_8zy7_36u4_x6x5"
       - key: DATABASE_URL
-        sync: false
-        required: true
-        
+        value: "postgresql://jarvis_xi3n_user:Nmf8rTOsvwF5qqHMSgLb4kR4iHdLWSvY@dpg-dbqjc8bbc2fs73dibrjg-a/jarvis_xi3n"
+      - key: HANDLER
+        value: "!"
+      - key: WORK_TYPE
+        value: "private"
+      - key: ERROR_MSG
+        value: "true"
+      - key: BOT_INFO
+        value: "ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://graph.org/file/f23f574f13baaf790f250.jpg"
+      - key: AUDIO_DATA
+        value: "ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://graph.org/file/76a1d2fe74ba5e5643e16.jpg"
+      - key: MEDIA_DATA
+        value: "ʟɪꜱᴛᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://graph.org/file/46ad7e1ba38c82aee6c0d.jpg"
+      - key: STICKER_PACKNAME
+        value: "ᴃ𝗍／𝗐𝗈𝗋𝗅𝗗𐌌ꙮ⍆ꕶ🌟🐊❳"
+      - key: SUDO
+        value: "917025673121"
+      - key: WARN_COUNT
+        value: "3"
+      - key: ALLWAYS_ONLINE
+        value: "false"
+      - key: READ_MSG
+        value: "false"
+      - key: SAVE_STATUS
+        value: "false"
+      - key: STATUS_VIEW
+        value: "false"
+      - key: REJECT_CALL
+        value: "false"
